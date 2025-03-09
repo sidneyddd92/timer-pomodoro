@@ -3,8 +3,8 @@ from win10toast import ToastNotifier
 
 def pomodoro_timer():
     count = 0
-    work_duration = 1 * 60  # 25 minutos em segundos
-    break_duration = 1 * 60   # 5 minutos em segundos
+    work_duration = 25 * 60  # 25 minutos em segundos
+    break_duration = 5 * 60   # 5 minutos em segundos
 
     toaster = ToastNotifier()
     print("Timer iniciado! Hora de focar!")
